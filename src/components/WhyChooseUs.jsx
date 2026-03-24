@@ -38,7 +38,13 @@ export default function WhyChooseUs() {
         <Row>
           {whyChooseUsData.map((item) => {
             return (
-              <Col md={3} key={item.id}>
+              <Col
+                xs={12}
+                sm={6}
+                md={3}
+                key={item.id}
+                className="mb-4 text-center"
+              >
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
               </Col>

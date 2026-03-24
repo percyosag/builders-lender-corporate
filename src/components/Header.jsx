@@ -46,13 +46,14 @@ export default function Header() {
               <ul>
                 <li>
                   <a href="tel:18001234567">
-                    <i className="fa-solid fa-phone"></i> 1-800-123-4567
+                    <i className="fa-solid fa-phone"></i>{" "}
+                    <span>1-800-123-4567</span>
                   </a>
                 </li>
                 <li>
                   <a href="mailto:info@builderlenders.com">
                     <i className="fa-solid fa-envelope"></i>{" "}
-                    info@builderlenders.com
+                    <span>info@builderlenders.com</span>
                   </a>
                 </li>
               </ul>

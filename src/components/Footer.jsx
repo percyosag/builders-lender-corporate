@@ -25,7 +25,7 @@ export default function Footer() {
           <Col>
             <div className="footer-content">
               <a href="#">
-                <i class="fa-solid fa-dollar-sign"></i> Builder Lenders
+                <i className="fa-solid fa-dollar-sign"></i> Builder Lenders
               </a>
               <p>
                 We are committed to providing the best service and support to
@@ -83,22 +83,22 @@ export default function Footer() {
             <ListGroup horizontal className="justify-content-end">
               <ListGroup.Item>
                 <a href="#facebook">
-                  <i class="fa-brands fa-facebook-f"></i>
+                  <i className="fa-brands fa-facebook-f"></i>
                 </a>
               </ListGroup.Item>
               <ListGroup.Item>
                 <a href="#twitter">
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
               </ListGroup.Item>
               <ListGroup.Item>
                 <a href="#instagram">
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </ListGroup.Item>
               <ListGroup.Item>
                 <a href="#linkedin">
-                  <i class="fa-brands fa-linkedin-in"></i>
+                  <i className="fa-brands fa-linkedin-in"></i>
                 </a>
               </ListGroup.Item>
             </ListGroup>
